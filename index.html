@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>图片文本像素画</title>
+<style>
+ .wjsc{
+   width:60%;
+   margin:20px auto;
+   border:1px solid black;
+   height:200px; 
+ }
+ .wj{
+  margin:50px;
+ }
+</style>
+</head>
+<body>
+<div class="wjsc">
+<form action="upload.php" method="post" enctype="multipart/form-data" class="wj">
+<input type="file" name="file"/>←点击上传文件<br/>
+<input type="text" name="beishu"/>←填写缩放倍数 默认原大小<br/>
+<input type="submit" value="转换"/>
+</form>
+</div>
+</body>
+</html>
